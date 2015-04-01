@@ -4,7 +4,7 @@ smalllight - https://code.google.com/p/smalllight/
 
 ## usage
 
-Using quickly sample images:
+Try quickly with sample images:
 
 ```
 git clone [repository]
@@ -23,6 +23,6 @@ Using your images:
 
 ```
 docker run -d -p 80:80 --name smalllight -v `pwd`/html:/var/www/html nasu/smalllight
-``
+```
 
 
