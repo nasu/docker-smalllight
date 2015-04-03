@@ -8,7 +8,7 @@ RUN yum -y -q update \
 RUN wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm \
   && rpm -ivh rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm \
   && rm rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm \
-  && yum -y -q update rpmforge-release
+  && yum -y -q update rpmforge-release \
   && yum clean all
 RUN yum -y -q install imlib2 imlib2-devel \
   && yum clean all
